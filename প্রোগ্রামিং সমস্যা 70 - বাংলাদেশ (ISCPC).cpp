@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-    cout<<"I"<<endl;
-     cout<<"Love"<<endl;
-       cout<<"Bangladesh."<<endl;
+    cout << "I" << endl;
+    cout << "Love" << endl;
+    cout << "Bangladesh." << endl;
 
 }
