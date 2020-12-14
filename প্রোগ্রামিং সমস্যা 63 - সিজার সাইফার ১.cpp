@@ -28,10 +28,10 @@ int main() {
     string ans = "";
     for(int i = 0; i < txt.size(); i++) {
         if(txt[i] >= 'A' && txt[i] <= 'Z') {
-            /// cout << int(s[i] + k - 65) % 26 + 97 << " ";
+            /// cout << int(txt[i] + key - 65) % 26 + 97 << " ";
             ans += char(int(txt[i] + key - 65) % 26 + 65);
         } else if(txt[i] >= 'a' && txt[i] <= 'z') {
-            ///cout << int(s[i] + k - 97) % 26 + 97 << " ";
+            ///cout << int(txt[i] + key - 97) % 26 + 97 << " ";
             ans += char(int(txt[i] + key - 97) % 26 + 97);
         } else {
             ans += txt[i];
